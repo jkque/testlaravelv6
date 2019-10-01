@@ -20,3 +20,7 @@ Route::get('/home', function () {
     dd(123123);
     return view('welcome');
 });
+
+Route::get('/cherrypick', function () {
+    return "cherrypick";
+});
