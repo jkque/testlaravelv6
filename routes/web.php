@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return 'sample';
+    return 'laravel v6';
 });
 
 // Route::get('/home', function () {
