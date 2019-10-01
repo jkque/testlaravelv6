@@ -14,3 +14,9 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/home', function () {
+    echo "hello world";
+    dd(123123);
+    return view('welcome');
+});
