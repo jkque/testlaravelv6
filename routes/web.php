@@ -15,3 +15,8 @@ Route::get('/', function () {
     return "sample";
 });
 
+Route::get('/home', function () {
+    echo "hello world";
+    dd(123123);
+    return view('welcome');
+});
